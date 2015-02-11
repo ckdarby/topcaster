@@ -1,0 +1,13 @@
+{
+    "name": "topcaster/website",
+    "autoload": {
+        "psr-4": {
+            "TopCaster\\app\\": "./app"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "vectorface/snappy-router": "~0.1",
+        "krizon/php-ga-measurement-protocol": "~0.1"
+    }
+}

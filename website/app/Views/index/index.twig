@@ -1,0 +1,64 @@
+{% extends 'layout.twig' %}
+
+{% block content %}
+
+<div class="container container-bottom">
+    <div class="loggedout">
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <img src="http://ttv-api.s3.amazonaws.com/assets/connect_dark.png" class="twitch-connect" href="#" />
+            </div>
+            <div class="col-md-5">
+                <img class="img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="loggedin">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h1 class="panel-title text-center">Vote on which streamer should be in our game!</h1>
+                    </div>
+                    <div class="panel-body">
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-8">
+
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="inputType" placeholder="Stream's Channel Name">
+                                        <span class="input-group-addon btn btn-success" id="basic-addon2">Vote</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+
+                <div class="well well-md">
+                    <h1>Voting Rules!</h1>
+                    <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                    <h1>Process!</h1>
+                    <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr class="featurette-divider">
+
+</div>
+
+{% endblock %}
